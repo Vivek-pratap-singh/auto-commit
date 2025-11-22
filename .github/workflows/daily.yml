@@ -3,7 +3,7 @@ name: Daily Commit
 # schedule + manual trigger
 on:
   schedule:
-    - cron: "15 19 * * *"  # Every day at 11:30 PM IST
+    - cron: "30 7 * * *"  # Every day at 11:30 PM IST
   workflow_dispatch:
 
 # Give the job permission to write repository contents
